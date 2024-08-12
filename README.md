@@ -4,6 +4,9 @@
 
 This project is a logic gate simulator built using *React Flow* and *Zustand*. It allows users to create and simulate various logic gates and circuits, offering a dynamic and interactive environment for visualizing logic operations. The simulator supports basic gates like AND, OR, XOR, and more complex components such as SR and JK flip-flops and full adders.
 
+Check out here:
+https://logi-sim.web.app/
+
 ## Features
 
 - *Interactive Circuit Design*: Users can create nodes representing logic gates and connect them using edges, simulating the flow of logic.
