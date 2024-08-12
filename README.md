@@ -19,8 +19,8 @@ https://logi-sim.web.app/
 To get started with the project, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/your-username/circuit-simulator.git
-cd circuit-simulator
+git clone https://github.com/ivan-yung/logi-sim
+cd logi-sim
 npm install
 ```
 ## Usage
