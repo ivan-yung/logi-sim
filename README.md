@@ -19,42 +19,5 @@ To get started with the project, clone the repository and install the necessary 
 git clone https://github.com/your-username/circuit-simulator.git
 cd circuit-simulator
 npm install
-Usage
-To run the simulator locally:
+```
 
-bash
-Copy code
-npm start
-This will start the development server, and you can interact with the simulator via your browser at http://localhost:3000.
-
-Components
-Nodes
-Input Nodes: Represents the inputs to the circuit. Each input node can be configured to output a specific value.
-Logic Gates: Includes basic logic gates like AND, OR, XOR, and NOT. Each gate can connect to other nodes and process inputs according to its logic.
-Flip-Flops: Supports SR and JK flip-flops with detailed handling of clock signals and output states.
-Full Adders: Implements the logic for a full adder, handling binary addition with three inputs.
-Edges
-Connections: Nodes are connected via edges, which can be updated to reflect different types, such as smoothstep or default.
-Dynamic Updates: Changes to the circuit structure are reflected in real-time, with dependent nodes recalculating outputs as needed.
-State Management
-The project utilizes Zustand to manage the state of the nodes, edges, and their interconnections. This includes:
-
-Storing input/output values for nodes
-Calculating gate logic based on node connections
-Handling edge types and node changes
-Managing the overall state of the circuit and performing updates as connections are made or altered
-Debugging Tools
-Several debugging utilities are included:
-
-logGateData: Logs the type of a specific gate.
-logNodeData: Logs the data of a specific node.
-logStore: Logs the entire Zustand store for inspection.
-logInStore: Logs only the input nodes and their data.
-logEdges: Logs the edges of the graph and counts the number of nodes.
-These tools help in monitoring and verifying the state of the circuit during development.
-
-Contributing
-Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
-
-License
-This project is licensed under the MIT License.
