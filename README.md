@@ -54,3 +54,6 @@ The project utilizes Zustand to manage the state of the nodes, edges, and their 
 - logStore: Logs the entire Zustand store for inspection.
 - logInStore: Logs only the input nodes and their data.
 - logEdges: Logs the edges of the graph and counts the number of nodes.
+
+## License
+This project is licensed under the MIT License.
